@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* DISPLAY BLOCK faz um elemento ocupar toda a linha "ELE É EGOÍSTA" */
+
+ label {
+    display: block;
+    border: 1px solid red;
+} 
+
+/* vamos melhorar a seleção atraves da div */
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* a ancora esta cobrindo a input */
+    padding: 10px;
+    /* p/ resolver use display block que toma espaço so da linha dele */
+    
+    /* se colocar margen sem display block vai tomar espaço dos outros elementos */
+    margin: 20px;
+    width: fit-content;
+}
